@@ -1,25 +1,26 @@
-Request Headers
-User-Agent: PostmanRuntime/7.26.10
-Accept: */*
-Cache-Control: no-cache
-Postman-Token: 661769f1-b08b-43c8-87ee-cbba6720a9ca
-Host: www.googleapis.com
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive
-Request Body
+#Request Headers
+User-Agent: PostmanRuntime/7.26.10 (Who is making request?)
+Accept: */* (Allowed and preffered format of response)
+Cache-Control: no-cache (Cash to respond)
+Postman-Token: 661769f1-b08b-43c8-87ee-cbba6720a9ca (Custom token that postman send)
+Host: www.googleapis.com (who is the host)
+Accept-Encoding: gzip, deflate, br (How the data encoded?)
+Connection: keep-alive (Status of the connection)
+
+#Request Body
 Response Headers
-Content-Type: application/json; charset=UTF-8
-Vary: Origin
+Content-Type: application/json; charset=UTF-8 (What type of content coming back?)
+Vary: Origin (How to respond)
 Vary: X-Origin
 Vary: Referer
-Content-Encoding: gzip
-Date: Sun, 31 Jan 2021 01:24:25 GMT
-Server: ESF
-Cache-Control: private
-X-XSS-Protection: 0
-X-Frame-Options: SAMEORIGIN
-X-Content-Type-Options: nosniff
-Alt-Svc: h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
-Transfer-Encoding: chunked
+Content-Encoding: gzip (What's kind of content encoded?)
+Date: Sun, 31 Jan 2021 01:24:25 GMT (Date of response)
+Server: ESF (The name of server that responding)
+Cache-Control: private (The cache won't be shared in public)
+X-XSS-Protection: 0 (If IE/Chrome/Safari found XXS, it will block the access to the page)
+X-Frame-Options: SAMEORIGIN (Check if the browser approves the access to the page)
+X-Content-Type-Options: nosniff (Tool to detect MIME sniff)
+Alt-Svc: h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43" (Specify alternative services for HTTP)
+Transfer-Encoding: chunked (It will be used if there is multi-node connection)
 Response Body
 The console only shows bodies smaller than 10 KB inline. To view the complete body, inspect it by clicking Open.
